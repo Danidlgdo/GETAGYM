@@ -1,0 +1,92 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    color: white;
+  }
+  
+  .barra-nav {
+    background-color: #005999;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 30px;
+  }
+  
+  .logo {
+    height: 40px;
+  }
+  
+  nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+  }
+  
+  nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  .contacto-boton {
+    background-color: #fced0b;
+    border: none;
+    padding: 10px 15px;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-left: 10px;
+  }
+  
+  .fondo {
+    position: relative;
+    background-image: url('gym-background.jpeg');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+  }
+  
+  .overlay-fondo {
+    background-color: rgba(0, 89, 153, 0.4);
+    height: 100%;
+    padding: 100px 30px;
+    text-align: center;
+  }
+  
+  .overlay-fondo h1 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+  }
+  
+  .overlay-fondo p {
+    font-size: 1.2rem;
+    margin-bottom: 30px;
+  }
+  
+  .overlay-fondo strong {
+    color: yellow;
+  }
+  
+  .alta-boton {
+    background-color: #fced0b;
+    border: none;
+    padding: 15px 25px;
+    font-size: 1rem;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  .redes-sociales {
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    font-size: 2.5rem;
+  }
+  
