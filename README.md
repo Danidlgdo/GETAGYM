@@ -3,7 +3,7 @@ Nombre Consultora: GETACONSULTING. <br>
 Nombre Empresa CLiente: GETAGYM. <br>
 Integrantes: Pablo, Denis, Samuel y Daniel. <br>
 Roles: <br>
-      Pablo: Diseñador Web; <br>
+      <tab> Pablo: Diseñador Web; <br>
       Denis: Maquetador; <br>
       Samuel: Jefe de Producto; <br>
       Daniel: Responsable de presentación; <br>
