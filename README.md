@@ -1,5 +1,5 @@
 # GETAGYM
-Nombre Consultora: GETACONSULTING.
+Nombre Consultora: GETACONSULTING. <br>
 Nombre Empresa CLiente: GETAGYM.
 Integrantes: Pablo, Denis, Samuel y Daniel.
 Roles:
