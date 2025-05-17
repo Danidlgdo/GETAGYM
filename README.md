@@ -1,13 +1,13 @@
 # GETAGYM
 Nombre Consultora: GETACONSULTING. <br>
-Nombre Empresa CLiente: GETAGYM.
-Integrantes: Pablo, Denis, Samuel y Daniel.
-Roles:
-      Pablo: Diseñador Web;
-      Denis: Maquetador;
-      Samuel: Jefe de Producto;
-      Daniel: Responsable de presentación;
-Fecha de Entrega Parcial: 17/05/2025.
-Software Usado: HTML Y CSS.
+Nombre Empresa CLiente: GETAGYM. <br>
+Integrantes: Pablo, Denis, Samuel y Daniel. <br>
+Roles: <br>
+      Pablo: Diseñador Web; <br>
+      Denis: Maquetador; <br>
+      Samuel: Jefe de Producto; <br>
+      Daniel: Responsable de presentación; <br>
+Fecha de Entrega Parcial: 17/05/2025. <br>
+Software Usado: HTML Y CSS. <br>
 Asistencia del Grupo: Pablo, Denis, Samuel y Daniel.
 
