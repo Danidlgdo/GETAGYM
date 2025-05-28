@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Formulario de Alta - GetaGym</title>
+  <link rel="stylesheet" href="/css/formulario.css" />
+</head>
+<body>
+  <header>
+    <div class="barra-nav">
+        <a href="/index.html"><img src="/assets/logo.png" class="logo" /></a>
+      <nav>
+        <ul>
+          <li><a href="unirse.html">¿POR QUÉ GETAGYM?</a></li>
+          <li><a href="alta.html">ALTA ONLINE</a></li>
+          <li><a href="informacion.html">INFORMACIÓN</a></li>
+        </ul>
+      </nav>
+        <a href="contacto.html" class="contacto-boton">CONTÁCTANOS</a>
+    </div>
+  </header>
+
+  <main class="formulario">
+    <h1>Formulario de Alta</h1>
+    <form action="#" method="post">
+      <label>Nombre:</label>
+      <input type="text" required />
+
+      <label>Apellidos:</label>
+      <input type="text" required />
+
+      <label>Correo electrónico:</label>
+      <input type="email" required />
+
+      <label>Número de teléfono:</label>
+      <input type="tel" required />
+
+      <label>DNI:</label>
+      <input type="text" required />
+
+      <label>Tipo de suscripción:</label>
+      <div class="opciones-suscripcion">
+        <label><input type="radio" name="suscripcion" value="mensual" required /> Cuota mensual</label>
+        <label><input type="radio" name="suscripcion" value="pase-dia" required /> Pase de un día</label>
+      </div>
+
+      <div class="checkboxes">
+        <label><input type="checkbox" required /> He leído y acepto los términos y condiciones</label>
+      </div>
+
+      <button type="submit">Enviar inscripción</button>
+    </form>
+  </main>
+
+  <footer class="footer">
+    <p>&copy; 2025 GetaGym - Todos los derechos reservados.</p>
+  </footer>
+</body>
+</html>
