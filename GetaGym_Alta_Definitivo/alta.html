@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Alta Online - GetaGym</title>
+  <link rel="stylesheet" href="alta.css" />
+</head>
+<body>
+  <header>
+    <div class="barra-nav">
+      <img src="logo.png" class="logo" />
+      <nav>
+        <ul>
+          <li><a href="#">¿POR QUÉ GETAGYM?</a></li>
+          <li><a href="#">ALTA ONLINE</a></li>
+          <li><a href="#">INFORMACIÓN</a></li>
+        </ul>
+      </nav>
+      <button class="contacto-boton">CONTÁCTANOS</button>
+    </div>
+  </header>
+
+  <main class="contenido">
+    <h1>Escoge tu centro más cercano</h1>
+    <div class="gimnasio-card">
+      <img src="manCurl.jpg" alt="GetaGym Centro" class="gym-imagen" />
+      <div class="info">
+        <h2>GETAGYM Central</h2>
+        <p>De 6h a 23h todos los días del año</p>
+        <p><strong>Dirección:</strong> Calle Cervantes, 5, 28098, Madrid</p>
+        <div class="botones">
+          <button onclick="mostrarPopUp()">+ Información</button>
+          <a href="#" class="boton-contacto">Contacta</a>
+          <a href="formulario.html" class="boton-alta">Alta ONLINE</a>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <div id="modal" class="pop-up">
+    <div class="pop-up-contenido">
+      <span class="pop-up-cerrar" onclick="cerrarPopUp()">&times;</span>
+      <h2>GETAGYM Central</h2>
+      <p>GetaGym Central cuenta con instalaciones de última generación, entrenadores personales y mucho más. Ubicado en Calle Cervantes, 5, ofrece parking disponible solo para clientes.</p>
+    </div>
+  </div>
+
+  <script>
+    function mostrarPopUp() {
+      document.getElementById("modal").style.display = "block";
+    }
+    function cerrarPopUp() {
+      document.getElementById("modal").style.display = "none";
+    }
+    window.onclick = function (event) {
+      if (event.target == document.getElementById("modal")) {
+        cerrarPopUp();
+      }
+    };
+  </script>
+</body>
+</html>

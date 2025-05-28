@@ -1,0 +1,148 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  color: white;
+  background-color: #001f33;
+}
+
+/*HEADER*/
+.barra-nav {
+  background-color: #005999;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 30px;
+}
+
+.logo {
+  height: 40px;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.contacto-boton {
+  background-color: #fced0b;
+  border: none;
+  padding: 10px 15px;
+  font-weight: bold;
+  cursor: pointer;
+  border-radius: 5px;
+}
+/*FIN HEADER*/
+
+.contenido {
+  padding: 40px;
+  text-align: center;
+}
+
+/*Titulo dentro de contenido*/
+h1 {
+  margin-bottom: 40px;
+  color: #fced0b;
+}
+
+.gimnasio-card {
+  background-color: #003d66;
+  padding: 30px;
+  border-radius: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  justify-content: center;
+  align-items: center;
+}
+
+.gym-imagen {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+/*Información básica del gym*/
+.info {
+  max-width: 500px;
+  text-align: left;
+}
+
+/*BOTONES*/
+.botones {
+  margin-top: 15px;
+  display: flex;
+  gap: 15px;
+  flex-wrap: wrap;
+}
+/*texto de los botones de enlace*/
+.botones button,
+.botones a {
+  padding: 10px 20px;
+  font-weight: bold;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  text-decoration: none;
+  text-align: center;
+}
+
+/*color botones*/
+.botones button {
+  background-color: #002b4d;
+  color: white;
+}
+
+.boton-contacto {
+  background-color: #334455;
+  color: white;
+}
+
+.boton-alta {
+  background-color: #fced0b;
+  color: black;
+}
+/*fin color botones*/
+/*FIN BOTONES*/
+
+.pop-up {
+  display: none;
+  position: fixed;
+  z-index: 1000;
+  padding-top: 100px;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgba(0,0,0,0.7);
+}
+
+.pop-up-contenido {
+  background-color: #003d66;
+  margin: auto;
+  padding: 20px;
+  border-radius: 10px;
+  width: 80%;
+  max-width: 600px;
+  color: white;
+}
+
+.pop-up-cerrar {
+  color: #fced0b;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+  cursor: pointer;
+}

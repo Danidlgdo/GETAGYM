@@ -1,0 +1,85 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #001f33;
+  color: white;
+  margin: 0;
+}
+
+/*HEADER*/
+.barra-nav {
+  background-color: #005999;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 30px;
+}
+
+.logo {
+  height: 40px;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.contacto-boton {
+  background-color: #fced0b;
+  border: none;
+  padding: 10px 15px;
+  font-weight: bold;
+  cursor: pointer;
+  border-radius: 5px;
+}
+/*FIN HEADER*/
+/*FORMULARIO*/
+.formulario {
+  padding: 40px;
+  max-width: 600px;
+  margin: auto;
+}
+/*Titulo formulario*/
+h1 {
+  text-align: center;
+  margin-bottom: 30px;
+  color: #fced0b;
+}
+/*Contenido de formulario se va a dividir en columnas*/
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+/*Estilo de los campos a rellenar en el formulario*/
+input[type="text"],
+input[type="email"],
+input[type="tel"] {
+  padding: 10px;
+  border-radius: 5px;
+  border: none;
+}
+/*Estilo del texto que acompaña a los checkboxes*/
+.opciones-suscripcion label,
+.checkboxes label {
+  display: block;
+  margin-top: 10px;
+}
+/*Botón de enviar inscripción*/
+button[type="submit"] {
+  background-color: #fced0b;
+  color: black;
+  font-weight: bold;
+  padding: 15px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 20px;
+}
+/*FIN FORMULARIO*/
