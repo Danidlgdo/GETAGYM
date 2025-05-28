@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Contacto XFitness</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Arial', sans-serif;
+      background: #f9f9f9;
+    }
+
+    header {
+      background-color: #2c3e50; /* Gris oscuro */
+      padding: 20px;
+      color: white;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    header nav a {
+      color: #dff6ff; /* Azul claro */
+      text-decoration: none;
+      margin: 0 15px;
+      font-weight: bold;
+    }
+
+    header nav a:hover {
+      text-decoration: underline;
+    }
+
+    .main {
+      display: flex;
+      padding: 40px;
+    }
+
+    .image-section {
+      flex: 1;
+      padding: 20px;
+    }
+
+    .image-section img {
+      max-width: 100%;
+    }
+
+    .form-section {
+      flex: 1;
+      background-color: white;
+      padding: 40px;
+      border-radius: 8px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
+
+    .form-section h1 {
+      color: #2c3e50;
+    }
+
+    .form-section p {
+      margin-bottom: 20px;
+    }
+
+    form select,
+    form input,
+    form textarea {
+      width: 100%;
+      padding: 12px;
+      margin-bottom: 15px;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+      font-size: 14px;
+    }
+
+    form button {
+      padding: 12px 20px;
+      background-color: #2c3e50;
+      color: white;
+      border: none;
+      border-radius: 4px;
+      font-size: 16px;
+      cursor: pointer;
+    }
+
+    form button:hover {
+      background-color: #34495e;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <div class="logo"><strong>XFITNESS</strong></div>
+  <nav>
+    <a href="#">CENTROS XFITNESS</a>
+    <a href="#">¿POR QUÉ XFITNESS?</a>
+    <a href="#">AFORO EN TIEMPO REAL</a>
+    <a href="#">ALTA ONLINE</a>
+    <a href="#">MONTA TU XFITNESS</a>
+    <a href="#">BLOG</a>
+    <a href="#" style="color: #fff; border-bottom: 2px solid #dff6ff;">CONTACTO</a>
+  </nav>
+</header>
+
+<div class="main">
+  <div class="image-section">
+    <img src="gym.png" alt="Gimnasio">
+  </div>
+  <div class="form-section">
+    <h1>Contacto</h1>
+    <p>Si te has quedado con alguna duda responda al siguiente cuestionario y no tardaremos en contestarte. Gracias.</p>
+    <form>
+      <input type="text" placeholder="Nombre y Apellidos (requerido)" required>
+      <input type="email" placeholder="E-mail (requerido)" required>
+      <input type="tel" placeholder="Teléfono (requerido)" required>
+      <textarea placeholder="Comentarios" rows="5"></textarea>
+      <button type="submit">Enviar</button>
+    </form>
+  </div>
+</div>
+
+</body>
+</html>
